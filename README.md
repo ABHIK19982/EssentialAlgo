@@ -1,2 +1,2 @@
 # EssentialAlgo
-This one contains the implementation of all the essential algorithms. Feel free to update or append this repository 
+This one contains the implementation of all the essential algorithms. Feel free to modify or append this repository 
