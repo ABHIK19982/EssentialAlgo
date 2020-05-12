@@ -1,0 +1,17 @@
+This is a graph searching class employing Floyd-Warshall algorithm or All pair Shortest path. The shortest paths are stored in a 2d ArrayList object which is the only private member of the class.
+
+This is a generic class which can work on any type of numeric data only.
+
+Constructors:
+FloydWarshall(int): Invokes the Initializemap method to initialize a path matrix of size NxN.
+
+Public Methods declared are:
+1. void AllPathSearch() : This method actually computes the shortest paths.
+2. T getShortestPath(int,int) : THis method returns the shortest path between any two points in the graph
+3. boolean SetPath(int,int,int): This method takes in the graph. A true is returned if the path is acknowledged,otherwise a                                      IndexOutOfBounds exception is thrown and false is returned.
+4. void showpath() :This method only prints the all the shortest paths for every node combinations in the form of a matrix.
+
+Private Methods declared are: 
+1. void InitializeMap() : Initializes all the distances to the highest value(1000000 taken in this case) except the diaginal elements which are made zero. This is invoked by the constructor itself. 
+
+Feel free to modify if needed
